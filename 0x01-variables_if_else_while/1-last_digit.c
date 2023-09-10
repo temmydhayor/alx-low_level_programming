@@ -3,6 +3,7 @@
 #include <stdio.h>
 /**
  * main - Entry mode
+ *
  * Return: always (0)
  */
 int main(void)
