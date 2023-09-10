@@ -14,7 +14,7 @@ int main(void)
 
 	while (num_1 <= '9')
 	{
-		while (num_2 <= '9')
+		while (num_2 <= '8')
 		{
 			if (num_1 < num_2)
 			{
@@ -29,6 +29,7 @@ int main(void)
 			num_2++;
 		}
 		num_1++;
+		num_2 = 0;
 	}
 	putchar('\n');
 	return (0);
