@@ -1,22 +1,18 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-
 /**
-* main - this is a function
-* Return: number generated
+* main - Entry point
+* Description: checks on tthe last digit of the assigned var
+* Return: always 0 (success)
 */
-/* more headers goes there */
 
-/* betty style doc for function main goes there */
 int main(void)
 {
-	int n;
-	int m;
+	int n, m;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	/* your code goes there */
 	m = n % 10;
 	if (m > 5)
 	{
