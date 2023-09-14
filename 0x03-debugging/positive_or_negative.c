@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * Positive_or_negative - print a number
+ * Description: Positive_or_negative - print a number
  * @i: Integer
  * if the number is greater than 0: is positive, if the number is 0: is zero
  * if the number is less than 0: is negative, followed by a new line
@@ -19,3 +19,5 @@ void positive_or_negative(int i)
 	else
 	printf("%d is zero\n", i);
 }
+
+
